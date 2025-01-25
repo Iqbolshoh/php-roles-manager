@@ -68,6 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $username;
         $_SESSION['user_id'] = $user_id;
         $_SESSION['role'] = 'user';
+        $redirectPath = '../';
 
         setcookie('username', $username, time() + (86400 * 30), "/", "", true, true);
         setcookie('session_token', session_id(), time() + (86400 * 30), "/", "", true, true);
@@ -81,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     showConfirmButton: false,
                     timer: 1500
                 }).then(() => {
-                    window.location.href = '../';
+                    window.location.href = '<?= $redirectPath; ?>';
                 });
             };
         </script>
