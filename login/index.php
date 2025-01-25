@@ -63,10 +63,10 @@ if (isset($_POST['submit'])) {
         if ($user['role'] == 'admin') {
             $redirectPath = '../admin/';
         }
-?>
+        ?>
 
         <script>
-            window.onload = function() {
+            window.onload = function () {
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
@@ -78,11 +78,11 @@ if (isset($_POST['submit'])) {
                 });
             };
         </script>
-    <?php
+        <?php
     } else {
-    ?>
+        ?>
         <script>
-            window.onload = function() {
+            window.onload = function () {
                 Swal.fire({
                     position: 'top-end',
                     icon: 'error',
@@ -92,7 +92,7 @@ if (isset($_POST['submit'])) {
                 });
             };
         </script>
-<?php
+        <?php
     }
 }
 ?>
@@ -125,7 +125,8 @@ if (isset($_POST['submit'])) {
                 <label for="password">Password</label>
                 <div class="password-container">
                     <input type="password" id="password" name="password" required maxlength="255">
-                    <button type="button" id="toggle-password" class="password-toggle"><i class="fas fa-eye"></i></button>
+                    <button type="button" id="toggle-password" class="password-toggle"><i
+                            class="fas fa-eye"></i></button>
                 </div>
             </div>
             <div class="form-group">
@@ -159,7 +160,7 @@ if (isset($_POST['submit'])) {
 
         usernameField.addEventListener('input', validateForm);
 
-        document.getElementById('toggle-password').addEventListener('click', function() {
+        document.getElementById('toggle-password').addEventListener('click', function () {
             const passwordField = document.getElementById('password');
             const toggleIcon = this.querySelector('i');
 
