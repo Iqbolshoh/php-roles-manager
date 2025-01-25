@@ -1,16 +1,14 @@
 <?php
 session_start();
 
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true && isset($_SESSION['role'])) {
 
-    if (isset($_SESSION['role'])) {
-        if ($_SESSION['role'] == 'admin') {
-            header("Location: ../admin/");
-            exit;
-        } else {
-            header("Location: ../");
-            exit;
-        }
+    if ($_SESSION['role'] == 'admin') {
+        header("Location: ../admin/");
+        exit;
+    } else {
+        header("Location: ../");
+        exit;
     }
 }
 
