@@ -16,7 +16,6 @@ CREATE TABLE IF NOT EXISTS users (
 
 -- Login: iqbolshoh
 -- Password: 1
-
 INSERT INTO
     users (
         first_name,
