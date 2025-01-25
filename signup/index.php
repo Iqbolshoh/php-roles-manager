@@ -50,6 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $query->validate(strtolower($_POST['email']));
     $username = $query->validate(strtolower($_POST['username']));
     $password = $query->hashPassword($_POST['password']);
+    $redirectPath = '../';
     $role = 'user';
 
     $data = [
@@ -70,7 +71,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $username;
         $_SESSION['user_id'] = $user_id;
         $_SESSION['role'] = $role;
-        $redirectPath = '../';
 
         setcookie('username', $username, time() + (86400 * 30), "/", "", true, true);
         setcookie('session_token', session_id(), time() + (86400 * 30), "/", "", true, true);
