@@ -56,7 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'last_name' => $last_name,
         'email' => $email,
         'username' => $username,
-        'password' => $password
+        'password' => $password,
+        'role' => 'user'
     ];
 
     $result = $query->insert('users', $data);
