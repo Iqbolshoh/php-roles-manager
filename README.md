@@ -33,23 +33,12 @@ This repository is a user management system built using PHP. It includes functio
    ```
 
 3. Configure the database connection in `config.php`:
-   ```php
-   
-   private $conn;
-
-   public function __construct()
-   {
-       $servername = "localhost";
-       $username = "root";
-       $password = "";
-       $dbname = "roles";
-       $this->conn = new mysqli($servername, $username, $password, $dbname);
-
-       if ($this->conn->connect_error) {
-           die("Connection failed: " . $this->conn->connect_error);
-       }
-   }
-   ```
+```php
+define("DB_SERVER", "localhost");
+define("DB_USERNAME", "root");
+define("DB_PASSWORD", "");
+define("DB_NAME", "roles");
+```
 
 ## Technologies Used
 
