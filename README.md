@@ -3,6 +3,9 @@
 This repository is a user management system built using PHP. It includes functionalities for user registration, login, role management.
 
 ![Login](src/images/login.png)
+- **🖥 Admin Login:** `iqbolshoh`  
+- **👤 User Login:** `user`  
+- **🔑 Password:** `IQBOLSHOH`  
 
 ## Features
 
