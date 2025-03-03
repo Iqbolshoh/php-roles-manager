@@ -15,8 +15,12 @@ CREATE TABLE IF NOT EXISTS users (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- Login: iqbolshoh
--- Password: 1
+-- ==============================  
+-- 📥 DATA INSERTION (COMPLETE)  
+-- ==============================  
+-- DEFAULT PASSWORD: "IQBOLSHOH" (HASHED FOR SECURITY)  
+-- ==============================  
+
 INSERT INTO
     users (
         first_name,
@@ -32,7 +36,7 @@ VALUES
         'Ilhomjonov',
         'iilhomjonov777@gmail.com',
         'iqbolshoh',
-        '65c2a32982abe41b1e6ff888d351ee6b7ade33affd4a595667ea7db910aecaa8',
+        '52be5ff91284c65bac56f280df55f797a5c505f7ef66317ff358e34791507027',
         'admin'
     ),
     (
