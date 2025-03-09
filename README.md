@@ -3,9 +3,6 @@
 This repository is a **user management system** built using **PHP**. It includes functionalities for **user registration, login, and role management**.  
 
 ![🔐 Login](src/images/login.png)  
-
-## 🔑 **Login Credentials**  
-
 🖥 **Admin Login:** `iqbolshoh`  
 👤 **User Login:** `user`  
 🔑 **Password:** `IQBOLSHOH`  
