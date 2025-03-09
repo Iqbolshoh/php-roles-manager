@@ -1,41 +1,44 @@
-# PHP User Role Manager
+# 🛡️ PHP User Role Manager  
 
-This repository is a user management system built using PHP. It includes functionalities for user registration, login, role management.
+This repository is a **user management system** built using **PHP**. It includes functionalities for **user registration, login, and role management**.  
 
-![Login](src/images/login.png)
-- **🖥 Admin Login:** `iqbolshoh`  
-- **👤 User Login:** `user`  
-- **🔑 Password:** `IQBOLSHOH`  
+![🔐 Login](src/images/login.png)  
 
-## Features
+## 🔑 **Login Credentials**  
 
-- **User Roles**: Admin, and User roles with specific access controls.
-- **User Authentication**: Secure login and registration with password hashing.
-- **File Uploads**: Users can upload profile images. All images, except `default.png`, are securely encrypted before storage.
-- **Role-Based Access**: Different pages and functionalities accessible based on user roles.
+🖥 **Admin Login:** `iqbolshoh`  
+👤 **User Login:** `user`  
+🔑 **Password:** `IQBOLSHOH`  
 
-## Preview pages
+## ✨ Features  
 
-### Admin Dashboard
-![Admin](src/images/admin.png)
+✅ **🔐 User Roles** – Admin & User roles with specific access controls.  
+✅ **🔑 Secure Authentication** – Password hashing for secure login & registration.  
+✅ **📂 File Uploads** – Users can upload profile images (all images except `default.png` are securely encrypted).  
+✅ **🔒 Role-Based Access** – Different pages & functionalities accessible based on user roles.  
 
-### User Dashboard
-![User](src/images/user.png)
+## 📊 **Preview Pages**  
 
-## Setting Up the Project
+### 🏢 **Admin Dashboard**  
+![⚙️ Admin Panel](src/images/admin.png)  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Iqbolshoh/php-user-role-manager.git
-   cd php-user-role-manager
-   ```
+### 👤 **User Dashboard**  
+![👥 User Panel](src/images/user.png)  
 
-2. Import the database:
-   ```bash
-   mysql -u yourusername -p yourpassword < database.sql
-   ```
+## 🛠️ **Setting Up the Project**  
 
-3. Configure the database connection in `config.php`:
+### 📥 1. **Clone the Repository**  
+```bash
+git clone https://github.com/Iqbolshoh/php-user-role-manager.git
+cd php-user-role-manager
+```  
+
+### 🗄️ 2. **Import the Database**  
+```bash
+mysql -u yourusername -p yourpassword < database.sql
+```  
+
+### ⚙️ 3. **Configure the Database Connection in `config.php`**  
 ```php
 define("DB_SERVER", "localhost");
 define("DB_USERNAME", "root");
