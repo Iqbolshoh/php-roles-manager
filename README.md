@@ -46,6 +46,7 @@ define("DB_NAME", "roles");
 
 ---
 
+
 ## 🖥 Technologies Used
 ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -98,7 +99,7 @@ This project is open-source and available under the **MIT License**.
         </a>
       </td>
       <td>
-        <a href="https://wa.me/qr/22PVFQSMQQX4F1" target="_blank">
+        <a href="https://wa.me/998997799333" target="_blank">
           <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg"
                height="40" width="40" alt="WhatsApp" title="WhatsApp" />
         </a>
