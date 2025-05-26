@@ -15,7 +15,7 @@ This repository is a **user management system** built using **PHP**. It includes
 ✅ **📂 File Uploads** – Users can upload profile images (all images except `default.png` are securely encrypted).  
 ✅ **🔒 Role-Based Access** – Different pages & functionalities accessible based on user roles.  
 
-## 📊 **Preview Pages**  
+## 📊 **Preview Pages** 
 
 ### 🏢 **Admin Dashboard**  
 ![⚙️ Admin Panel](src/images/admin.png)  
